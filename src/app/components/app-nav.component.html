@@ -1,0 +1,20 @@
+<mat-drawer #drawer class="sidenav" mode="side">
+    <p>Auto-resizing sidenav</p>
+    <p *ngIf="showFiller">
+        Lorem, ipsum dolor sit amet consectetur.
+    </p>
+    <button (click)="showFiller = !showFiller" mat-raised-button>
+        Toggle extra text
+    </button>
+</mat-drawer>
+
+<div class="navbar">
+    <div class="bars">
+        <button type="button" mat-button (click)="drawer.toggle()">
+            <em class="fal fa-bars"></em>
+        </button>
+    </div>
+    <div class="brand">
+        <h2> <span class="bahn-light">carb</span><b>loggr</b> </h2>
+    </div>
+</div>
