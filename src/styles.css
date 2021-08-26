@@ -1,5 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: "Bahnschrift" !important;}
+html, body { height: 100%; background-color: #333; }
+body { margin: 0; font-family: "Bahnschrift" !important; color: #FFF; }
 .bahn-light { font-weight: lighter !important;}
+
+@media all and (max-width: 479px) {
+    .container { padding: .3rem; }
+}
+@media all and (min-width: 480px) {
+    .container { padding: 1.5rem; }
+}
+
+a { text-decoration: none !important; color: #FFF; }
+a:hover { color: #bcbcbc; }

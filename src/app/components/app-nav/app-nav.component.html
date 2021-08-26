@@ -1,0 +1,24 @@
+<mat-drawer #drawer class="sidenav" mode="side">
+    <a routerLink="/">
+        <h3> <span class="bahn-regular">Dashboard</span></h3>
+    </a>
+    <a routerLink="/meals">
+        <h3> <span class="bahn-regular">Meals & Recipies </span></h3>
+    </a>
+    <a routerLink="/fooditems">
+        <h3> <span class="bahn-regular">Food items & Ingredients </span></h3>
+    </a>
+</mat-drawer>
+
+<div class="navbar">
+    <div class="bars">
+        <button type="button" mat-button (click)="drawer.toggle()">
+            <em class="fal fa-bars"></em>
+        </button>
+    </div>
+    <div class="brand">
+        <a routerLink="/">
+            <h2> <span class="bahn-light">carb</span><b>loggr</b> </h2>
+        </a>
+    </div>
+</div>
