@@ -18,7 +18,7 @@ import { HomeComponent } from './home/home.component';
     AppTbComponent,
     MealsComponent,
     FoodItemsComponent,
-    HomeComponent
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
